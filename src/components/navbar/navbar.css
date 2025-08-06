@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #f9fafb; /* light */
+    color: #111827;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar.dark {
+    background-color: #1f2937; /* dark bg */
+    color: #e5e7eb;
+  }
+  
+  .navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    user-select: text;
+  }
+  
+  .navbar-toggle {
+    background-color: transparent;
+    border: 2px solid currentColor;
+    border-radius: 9999px;
+    padding: 0.35rem 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.25s ease, color 0.25s ease;
+    user-select: none;
+  }
+  
+  .navbar-toggle:hover,
+  .navbar-toggle:focus {
+    background-color: currentColor;
+    color: #ffffff;
+    outline: none;
+  }
+  

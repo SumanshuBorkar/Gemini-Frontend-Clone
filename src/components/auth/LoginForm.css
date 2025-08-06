@@ -1,0 +1,163 @@
+.login-form {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .dark{
+    background: #111827;
+  }
+  
+  .login-form > div {
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form label {
+    display: block;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 0.35rem;
+  }
+  
+  .login-form input[type="tel"],
+  .login-form input[type="text"],
+  .login-form select {
+    width: 90%;
+    padding: 0.75rem 1rem;
+    border: 1.5px solid #d1d5db; 
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #111827; 
+    transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  }
+  
+  .login-form input[type="tel"]:focus,
+  .login-form input[type="text"]:focus,
+  .login-form select:focus {
+    border-color: #3b82f6; 
+    outline: none;
+    box-shadow: 0 0 6px #3b82f6aa;
+  }
+  
+  .login-form input.otp {
+    letter-spacing: 0.3em;
+    text-align: center;
+    font-family: monospace, monospace;
+  }
+  
+  .login-form .error-message {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+  }
+  
+  .login-form .info-text {
+    font-size: 0.75rem;
+    color: #9ca3af; 
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 0.75rem 0;
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+    font-size: 1.125rem;
+  }
+  
+  .login-form .btn-primary {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .login-form .btn-primary:hover:not(:disabled) {
+    background-color: #1e40af;
+  }
+  
+  .login-form .btn-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .login-form .btn-secondary {
+    background-color: #f3f4f6; 
+    color: #1f2937;
+    font-weight: 600;
+    margin-top: 0.75rem;
+  }
+  
+  .login-form .btn-secondary:hover:not(:disabled) {
+    background-color: #e5e7eb;
+  }
+  
+  .login-form .btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .login-form .feedback {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+  
+  .login-form .feedback.error {
+    color: #dc2626;
+  }
+  
+  .login-form .feedback.success {
+    color: #16a34a;
+  }
+  
+
+  /* // Mobile Responsive  */
+
+  @media (max-width: 480px) {
+    .login-form {
+      margin: 1rem;  /* less margin on smaller screens */
+      padding: 1.2rem; /* less padding */
+      max-width: 100%; /* Fill almost full width */
+      border-radius: 12px;
+    }
+  
+    .login-form button {
+      font-size: 1rem;
+      padding: 0.65rem 0;
+    }
+  
+    .login-form label {
+      font-size: 0.9rem;
+    }
+  
+    .login-form input[type="tel"],
+    .login-form input[type="text"],
+    .login-form select {
+      font-size: 0.9rem;
+      padding: 0.6rem 0.8rem;
+    }
+  
+    .login-form .info-text,
+    .login-form .error-message {
+      font-size: 0.7rem;
+    }
+  }
+  
+  /* Medium devices/tablets (max-width 768px) */
+  @media (max-width: 768px) and (min-width: 481px) {
+    .login-form {
+      max-width: 90%;
+      padding: 1.5rem;
+      margin: 1.5rem auto;
+    }
+  
+    .login-form button {
+      font-size: 1.05rem;
+      padding: 0.7rem 0;
+    }
+  }
