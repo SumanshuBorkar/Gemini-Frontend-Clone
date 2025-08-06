@@ -1,6 +1,7 @@
 # Gemini Frontend Clone - Kuvaka Tech Assignment
 
-![App Screenshot](/screenshots/app-preview.png) 
+Link to Demo video
+![https://www.loom.com/share/ce12450ede7b4f0a83eeb6046b0aa84b?sid=792a135d-1f58-49b5-a1d5-ef82703e267b](https://www.loom.com/share/ce12450ede7b4f0a83eeb6046b0aa84b?sid=792a135d-1f58-49b5-a1d5-ef82703e267b) 
 
 A responsive Gemini-style conversational AI chat application with OTP authentication, chatroom management, and simulated AI responses.
 
@@ -52,7 +53,7 @@ src/
 │   ├── chat/            # Chat interface components
 │   ├── dashboard/       # Dashboard components
 │   └── ui/              # Global UI components
-├── features/            # Redux feature slices
+├── redux/            # Redux feature slices
 ├── hooks/               # Custom React hooks
 ├── pages/               # Page-level components
 ├── store/               # Redux store configuration
