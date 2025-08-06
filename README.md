@@ -1,12 +1,60 @@
-# React + Vite
+# Gemini Frontend Clone - Kuvaka Tech Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Screenshot](/screenshots/app-preview.png) 
 
-Currently, two official plugins are available:
+A responsive Gemini-style conversational AI chat application with OTP authentication, chatroom management, and simulated AI responses.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+[View deployed application on Vercel](https://gemini-clone-kuvaka.vercel.app) 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+✅ **OTP Authentication**  
+- Country code selection from REST Countries API  
+- Form validation with React Hook Form + Zod  
+- Simulated OTP send/verify flow  
+
+✅ **Chatroom Management**  
+- Create/delete chatrooms  
+- Search/filter chatrooms  
+- Toast notifications for all actions  
+
+✅ **AI Chat Interface**  
+- Simulated AI responses with typing indicators  
+- Message timestamps and copy-to-clipboard  
+- Image upload support (base64 preview)  
+- Infinite scroll pagination (20 messages per page)  
+
+✅ **Global UX Features**  
+- Dark/light mode toggle  
+- Mobile-responsive design  
+- Loading skeletons  
+- Keyboard accessibility  
+- Redux state persistence (localStorage)  
+
+## Tech Stack
+
+- **Framework**: React 18  
+- **State Management**: Redux Toolkit + redux-persist  
+- **Form Handling**: React Hook Form + Zod  
+- **Styling**: Tailwind CSS  
+- **UI Components**: Headless UI + React Icons  
+- **Notifications**: react-hot-toast  
+- **Deployment**: Vercel  
+
+## Project Structure
+
+```bash
+src/
+├── components/          # Reusable UI components
+│   ├── auth/            # Authentication components
+│   ├── chat/            # Chat interface components
+│   ├── dashboard/       # Dashboard components
+│   └── ui/              # Global UI components
+├── features/            # Redux feature slices
+├── hooks/               # Custom React hooks
+├── pages/               # Page-level components
+├── store/               # Redux store configuration
+├── utils/               # Utility functions
+└── App.js               # Main application component
