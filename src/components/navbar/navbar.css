@@ -28,6 +28,11 @@
     user-select: text;
   }
   
+.navbar-buttons{
+  display: flex;
+  gap: 1rem;
+}
+
   .navbar-toggle {
     background-color: transparent;
     border: 2px solid currentColor;

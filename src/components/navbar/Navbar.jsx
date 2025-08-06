@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="navbar-logo">
           CAT-GPT
         </div>
-        <div>
+        <div className='navbar-buttons'>
         <button
           onClick={handleToggle}
           className="navbar-toggle"
