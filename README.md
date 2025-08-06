@@ -6,7 +6,7 @@ A responsive Gemini-style conversational AI chat application with OTP authentica
 
 ## Live Demo
 
-[View deployed application on Vercel](https://gemini-clone-kuvaka.vercel.app) 
+[View deployed application on Vercel](https://gemini-frontend-clone-five.vercel.app/login) 
 
 ## Features
 
