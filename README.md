@@ -1,7 +1,7 @@
 # Gemini Frontend Clone - Kuvaka Tech Assignment
 
 Link to Demo video
-![https://www.loom.com/share/ce12450ede7b4f0a83eeb6046b0aa84b?sid=792a135d-1f58-49b5-a1d5-ef82703e267b](https://www.loom.com/share/ce12450ede7b4f0a83eeb6046b0aa84b?sid=792a135d-1f58-49b5-a1d5-ef82703e267b) 
+[https://www.loom.com/share/ce12450ede7b4f0a83eeb6046b0aa84b?sid=792a135d-1f58-49b5-a1d5-ef82703e267b](https://www.loom.com/share/ce12450ede7b4f0a83eeb6046b0aa84b?sid=792a135d-1f58-49b5-a1d5-ef82703e267b) 
 
 A responsive Gemini-style conversational AI chat application with OTP authentication, chatroom management, and simulated AI responses.
 
